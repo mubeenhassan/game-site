@@ -2,10 +2,19 @@ import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import topBgImg from '../assests/images/top_bg.png'
+import gopinLogo from '../assests/images/Gopnik_logo.png'
 import gopniksText from '../assests/images/gopniks.png'
 import gopniksGif from '../assests/images/Gopniks.gif'
 import goldenGopin from '../assests/images/Golden_gopnik.png'
 import borisBea from '../assests/images/boris_bear.png'
+import borisBG from '../assests/images/Boris_logo.png'
+import borisCard from '../assests/images/Gopnik_id.png'
+import pistol from '../assests/images/boris_roulette.png'
+import hand from '../assests/images/boris_gopnikfight.png'
+import vsimg from '../assests/images/boris_beauty.png'
+import band from '../assests/images/boris_slotmachine.png'
+import dollar from '../assests/images/community_dollar.png'
+import borisSign from '../assests/images/boris_sign.png'
 const SCROLL_BEHAVIOUR = {
   'data-aos': 'fade-up',
 }
@@ -21,8 +30,13 @@ export default function Section01() {
     <div className='sec1 bbk'>
       <div className='sec1_1'>
         <img className='sec1_1_bg' src={topBgImg} alt='' />
-        <div className='floating-img'>
-          <img className='w-100 floating' src={gopniksGif} alt='' />
+        <div className='floating-img mp'>
+          <img
+            {...SCROLL_BEHAVIOUR}
+            className='w-100 floating'
+            src={gopinLogo}
+            alt=''
+          />
         </div>
       </div>
 
@@ -221,19 +235,122 @@ export default function Section01() {
             </table>
           </div>
           <div className='h64'></div>
-          <h1 className='tl'>
+          <h1 className='tl' {...SCROLL_BEHAVIOUR}>
             <span className='gold'>ROAD MAP</span> chapter 1
           </h1>
-          <h2 className='tl'>
+          <h2 className='tl' {...SCROLL_BEHAVIOUR}>
             x BEGIN MINTING <br />
             x FIRST 100 MINT 2x <br />
             1000 MINTS EVENT: BORIS CASINO OPEN
           </h2>
 
-          <div className="h64"></div>
-          <a href="https://discord.gg/aZuVzKau"><h2 className='gold'>JOIN DISCORD</h2></a>
-          <h2>FOLLOW TWITTER</h2>
+          <div className='h64'></div>
+          <a className='gold wf ma h2' {...SCROLL_BEHAVIOUR} href='https://discord.gg/aZuVzKau'>
+           JOIN DISCORD
+          </a>
+          <h2 {...SCROLL_BEHAVIOUR}>FOLLOW TWITTER</h2>
         </div>
+      </div>
+
+      <div className='boris_section'>
+        <img {...SCROLL_BEHAVIOUR} className='boris_bg' src={borisBG} alt='' />
+        <div className='w tc'>
+          <h1 {...SCROLL_BEHAVIOUR} className='gold'>
+            BORIS RUSSIAN roulette CLUB at the Casino. BORIS Casino
+          </h1>
+          <p className='tj' {...SCROLL_BEHAVIOUR}>
+            Bring your gopnik and gamble on boris hazard den, every saturday at
+            discord:
+          </p>
+          <div className='h32' />
+
+          <div className='member-link'>
+            <img {...SCROLL_BEHAVIOUR} src={borisCard} alt='' />
+            <div className='members-link'>
+              <h1 {...SCROLL_BEHAVIOUR}>MEMBERS ONLY</h1>
+              <p {...SCROLL_BEHAVIOUR}>
+                Join discord gamble room here:
+                <br />
+                <a
+                  {...SCROLL_BEHAVIOUR}
+                  className='gold'
+                  href='https://discord.gg/aZuVzKau'
+                >
+                  https://discord.gg/aZuVzKau
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className='h32' />
+          <h1 {...SCROLL_BEHAVIOUR} className='gold'>
+            BORIS GAMES
+          </h1>
+          <p className='tj' {...SCROLL_BEHAVIOUR}>
+            bring your gopnik, come play and be amused by our seductive russian
+            dancers. Sveta and Yulia are waiting for you, in tiny little
+            attires. And remember, what happens in Gopnik landstays in Gopnik
+            land. Nu, davaj.
+          </p>
+        </div>
+
+        <div className='w w-50 dfw tc'>
+          <div {...SCROLL_BEHAVIOUR} className='card'>
+            <img src={pistol} alt='' />
+            <p>
+              russian roulette <br /> <span className='gold'>odds: 6/7</span>
+            </p>
+          </div>
+          <div {...SCROLL_BEHAVIOUR} className='card'>
+            <img src={hand} alt='' />
+            <p>
+              gopink fight <br /> <span className='gold'>odds: 1/2</span>
+            </p>
+          </div>
+          <div {...SCROLL_BEHAVIOUR} className='card'>
+            <img src={vsimg} alt='' />
+            <p>
+              beauty contest <br /> <span className='gold'>odds: 1/2</span>
+            </p>
+          </div>
+          <div {...SCROLL_BEHAVIOUR} className='card'>
+            <img src={band} alt='' />
+            <p>
+              boris bandit <br /> <span className='gold'>odds: ???</span>
+            </p>
+          </div>
+          <div className='h32'></div>
+          <h1 {...SCROLL_BEHAVIOUR} className='gold tc w-100'>
+            COMMUNITY CHEST
+          </h1>
+          <p {...SCROLL_BEHAVIOUR} className='tj'>
+            <span>15% </span>
+            of all Gopniks will belong to the house when the mint is over. These
+            are the gopniks you can win from Boris. the plan is to scam Boris of
+            all his Gopniks. Can you do it?
+          </p>
+          <img
+            {...SCROLL_BEHAVIOUR}
+            className='gopin-size'
+            src={dollar}
+            alt=''
+          />
+          <div className='h32' />
+          <h1 {...SCROLL_BEHAVIOUR} className='gold tc w-100'>
+            BORIS
+          </h1>
+          <img
+            {...SCROLL_BEHAVIOUR}
+            className='gopin-size'
+            src={borisSign}
+            alt=''
+          />
+          <p {...SCROLL_BEHAVIOUR} className='tj'>
+            This is the one hell of a furry bear you don’t want to mess with. OG
+            Boris, captured as a young cub and soon thereafter an escapee, is
+            now the most feared Gopnik of the night.
+          </p>
+        </div>
+        <div className='h64' />
       </div>
     </div>
   )
