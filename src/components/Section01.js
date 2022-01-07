@@ -5,7 +5,8 @@ import topBgImg from '../assests/images/top_bg.png'
 import gopinLogo from '../assests/images/Gopnik_logo.png'
 import gopniksText from '../assests/images/gopniks.png'
 import gopniksGif from '../assests/images/Gopniks.gif'
-import goldenGopin from '../assests/images/Golden_gopnik.png'
+import contestImg from '../assests/images/contest.png'
+import goldenShoes from '../assests/images/goldenshoes_.gif'
 import borisBea from '../assests/images/boris_bear.png'
 import borisBG from '../assests/images/Boris_logo.png'
 import borisCard from '../assests/images/Gopnik_id.png'
@@ -46,11 +47,13 @@ export default function Section01() {
       <div className='sec1_2 tc'>
         <div className='w'>
           <h1 {...SCROLL_BEHAVIOUR}>
-            ACT I:
+            Chapter One:
             <br />
             Meet the Boys
           </h1>
-          <h1 {...SCROLL_BEHAVIOUR}>What is a Gopnik?</h1>
+          <h1 className='gold' {...SCROLL_BEHAVIOUR}>
+            What is a Gopnik?
+          </h1>
           <p className='tj' {...SCROLL_BEHAVIOUR}>
             A Gopnik is a Russian troublemaker. We have 5555 real hard hustlers
             ready to fuck shit up. Do you like to gamble? Take risks? Drink a
@@ -60,40 +63,51 @@ export default function Section01() {
           </p>
           <div className='h64' />
           <h1 {...SCROLL_BEHAVIOUR} className='gold'>
-            What can I do with my gopniks?
+            WHAT UTILITY DOES MY GOPNIK HAVE?
           </h1>
           <div className='chapters tj w-50 ma'>
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter one:</span>
             </h1>
             <h2 {...SCROLL_BEHAVIOUR}>
-              - Mint him <br />- Gamble him <br />- Beaty pagion
+              - Mint Legendary Gopniks <br />
+              - Gamble in the Boris Casino <br />
+              - Enter Beauty Contests <br />
+              - Access to Secondary Market <br />- Rarity Chart
             </h2>
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter two:</span>
             </h1>
             <h2 {...SCROLL_BEHAVIOUR}>
-              - Sell him <br />- Get drops <br />- Trade him <br />- Get rich
+              - Stake Gopnik Event <br />
+              - Receive Chernobyl Drop <br />- $SLAV tokens for Bunker
+              Marketplace
             </h2>
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter three:</span>
             </h1>
             <h2 {...SCROLL_BEHAVIOUR}>
-              Mutate him <br />x Trade him <br />x Gamble him
+              - Mutate into a Chernobyl Gopnik <br />
+              - Trade him <br />
+              - Receive physical signed poster from artist
+              <br />
+              - Access to Secondary Market
+              <br />- Rarity Chart
             </h2>
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter four:</span>
             </h1>
-            <h2 {...SCROLL_BEHAVIOUR}>x coming soon</h2>
+            <h2 {...SCROLL_BEHAVIOUR}>x Road map Reveal 15 Februari</h2>
           </div>
           <div className='floating-img-con' {...SCROLL_BEHAVIOUR}>
             <div className='floating-img'>
               <img className='w-100 floating' src={gopniksGif} alt='' />
             </div>
           </div>
+          <h1 className='gold'>100% Fair and Randomized</h1>
           <p {...SCROLL_BEHAVIOUR} className='tj'>
-            100% Fair and Randomized Minting using latest Solana Candy Machine
-            v2.0. No more bot or team sniping, fair for everyone
+            Minting using latest Solana Candy Machine v2.0. No more bot or team
+            sniping, fair for everyone
           </p>
           <h1 {...SCROLL_BEHAVIOUR}>
             <span className='gold'>mint live end:</span> 24th jan
@@ -113,7 +127,7 @@ export default function Section01() {
           </h1>
           <img
             {...SCROLL_BEHAVIOUR}
-            src={goldenGopin}
+            src={goldenShoes}
             alt=''
             className='gopin-size'
           />
@@ -137,6 +151,20 @@ export default function Section01() {
             Find our furry friend Boris, the bear who controls the underground
             casino. Mint him and get 10 Gopniks, free of charge.
           </p>
+
+          <div className='h64' />
+          <h1 {...SCROLL_BEHAVIOUR} className='gold'>
+            50 Golden Shoe Gopnik
+          </h1>
+          <img
+            {...SCROLL_BEHAVIOUR}
+            src={gopniksGif}
+            alt=''
+            className='gopin-size'
+          />
+          <p {...SCROLL_BEHAVIOUR} className='tj'>
+            50 of the rarest Gopniks, outfitted with Slav’s best shoes.
+          </p>
           <div className='h64' />
           <div {...SCROLL_BEHAVIOUR} className='traits tl '>
             <table>
@@ -144,7 +172,7 @@ export default function Section01() {
                 <tr>
                   <td>
                     <h2 {...SCROLL_BEHAVIOUR} className='gold'>
-                      traits
+                      Traits / Attributes
                     </h2>
                   </td>
                 </tr>
@@ -245,8 +273,12 @@ export default function Section01() {
           </h2>
 
           <div className='h64'></div>
-          <a className='gold wf ma h2' {...SCROLL_BEHAVIOUR} href='https://discord.gg/aZuVzKau'>
-           JOIN DISCORD
+          <a
+            className='gold wf ma h2'
+            {...SCROLL_BEHAVIOUR}
+            href='https://discord.gg/Ns9qXDCv6Z'
+          >
+            JOIN DISCORD
           </a>
           <h2 {...SCROLL_BEHAVIOUR}>FOLLOW TWITTER</h2>
         </div>
@@ -274,9 +306,9 @@ export default function Section01() {
                 <a
                   {...SCROLL_BEHAVIOUR}
                   className='gold'
-                  href='https://discord.gg/aZuVzKau'
+                  href='https://discord.gg/Ns9qXDCv6Z'
                 >
-                  https://discord.gg/aZuVzKau
+                  https://discord.gg/Ns9qXDCv6Z
                 </a>
               </p>
             </div>
@@ -349,7 +381,31 @@ export default function Section01() {
             Boris, captured as a young cub and soon thereafter an escapee, is
             now the most feared Gopnik of the night.
           </p>
+
+          <div className='h64' />
+
+          <h1 {...SCROLL_BEHAVIOUR} className='gold ma'>
+            beauty contest
+          </h1>
+
+          <p {...SCROLL_BEHAVIOUR} className='tc'>
+            Did you mint theprettiest GOPNIK?
+            <br />
+            <br />
+            JOIN OUR WEEKLY COMPETITIONAND BATTLE THE COMMUNITY FOR REWARDs.
+            <br />
+            <br />
+            THIS IS A COMMUNTY DRIVENDAO AND HOLDERS VOTEFOR THE WINNERS
+          </p>
+
+          <img
+            {...SCROLL_BEHAVIOUR}
+            src={contestImg}
+            alt=''
+            className='gopin-size'
+          />
         </div>
+
         <div className='h64' />
       </div>
     </div>
