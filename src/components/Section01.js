@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
-import 'aos/dist/aos.css'
 import topBgImg from '../assests/images/top_bg.png'
 import gopinLogo from '../assests/images/Gopnik_logo.png'
 import gopniksText from '../assests/images/gopniks.png'
@@ -16,6 +15,7 @@ import vsimg from '../assests/images/boris_beauty.png'
 import band from '../assests/images/boris_slotmachine.png'
 import dollar from '../assests/images/community_dollar.png'
 import borisSign from '../assests/images/boris_sign.png'
+import burningForest from '../assests/images/burning_forest.png'
 const SCROLL_BEHAVIOUR = {
   'data-aos': 'fade-up',
 }
@@ -69,35 +69,44 @@ export default function Section01() {
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter one:</span>
             </h1>
-            <h2 {...SCROLL_BEHAVIOUR}>
-              - Mint Legendary Gopniks <br />
-              - Gamble in the Boris Casino <br />
-              - Enter Beauty Contests <br />
-              - Access to Secondary Market <br />- Rarity Chart
-            </h2>
+
+            <ul className='_style' {...SCROLL_BEHAVIOUR}>
+              <li><h2> Mint Legendary Gopniks</h2></li>
+              <li><h2>Gamble in the Boris Casino</h2></li>
+              <li><h2>Enter Beauty Contests</h2></li>
+              <li><h2>Access to Secondary Market</h2></li>
+              <li><h2>Rarity Chart</h2></li>
+            </ul>
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter two:</span>
             </h1>
-            <h2 {...SCROLL_BEHAVIOUR}>
+            <ul className='_style' {...SCROLL_BEHAVIOUR}>
+              <li><h2>Stake Gopnik Event</h2></li>
+              <li><h2>Receive Chernobyl Drop</h2></li>
+              <li><h2>$SLAV tokens for Bunker Marketplace</h2></li>
+            </ul>
+            {/* <h2 {...SCROLL_BEHAVIOUR}>
               - Stake Gopnik Event <br />
               - Receive Chernobyl Drop <br />- $SLAV tokens for Bunker
               Marketplace
-            </h2>
+            </h2> */}
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter three:</span>
             </h1>
-            <h2 {...SCROLL_BEHAVIOUR}>
-              - Mutate into a Chernobyl Gopnik <br />
-              - Trade him <br />
-              - Receive physical signed poster from artist
-              <br />
-              - Access to Secondary Market
-              <br />- Rarity Chart
-            </h2>
+
+            <ul className='_style' {...SCROLL_BEHAVIOUR}>
+              <li><h2>Mutate into a Chernobyl Gopnik</h2></li>
+              <li><h2>Trade him</h2></li>
+              <li><h2>Receive physical signed poster from artist</h2></li>
+              <li><h2>Access to Secondary Market</h2></li>
+              <li><h2>Rarity Chart</h2></li>
+            </ul>            
             <h1 {...SCROLL_BEHAVIOUR}>
               <span className='gold'>Chapter four:</span>
             </h1>
-            <h2 {...SCROLL_BEHAVIOUR}>x Road map Reveal 15 Februari</h2>
+            <ul className='_style _style_x' {...SCROLL_BEHAVIOUR}>
+              <li><h2>Road map Reveal 15 Februari</h2></li>
+            </ul>
           </div>
           <div className='floating-img-con' {...SCROLL_BEHAVIOUR}>
             <div className='floating-img'>
@@ -266,9 +275,11 @@ export default function Section01() {
           <h1 className='tl' {...SCROLL_BEHAVIOUR}>
             <span className='gold'>ROAD MAP</span> chapter 1
           </h1>
+          <ul className='_style _style_x' {...SCROLL_BEHAVIOUR}>
+              <li><h2>BEGIN MINTING</h2></li>
+              <li><h2>FIRST 100 MINT 2x</h2></li>
+          </ul>
           <h2 className='tl' {...SCROLL_BEHAVIOUR}>
-            x BEGIN MINTING <br />
-            x FIRST 100 MINT 2x <br />
             1000 MINTS EVENT: BORIS CASINO OPEN
           </h2>
 
@@ -407,6 +418,8 @@ export default function Section01() {
         </div>
 
         <div className='h64' />
+        <img {...SCROLL_BEHAVIOUR} className="w-100" src={burningForest} alt="" />
+
       </div>
     </div>
   )
