@@ -8,7 +8,7 @@ export default function Chapter01() {
     AosInitializer()
   }, [])
   return (
-    <div className='chapter_04'>
+    <div className='chapter_04'  id='chapter_04'>
       <div className='w tc'>
         <div className="h32"></div>
         <div className="w-75 ma">

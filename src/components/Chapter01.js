@@ -24,7 +24,7 @@ export default function Chapter01() {
   }, [])
   
   return (
-    <div className='sec1 bbk'>
+    <div className='sec1 bbk' id='chapter_01'>
       <div className='sec1_1'>
         <img className='sec1_1_bg' src={topBgImg} alt='' />
         <div className='floating-img mp'>

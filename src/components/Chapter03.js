@@ -10,7 +10,7 @@ export default function Chapter01() {
     AosInitializer()
   }, [])
   return (
-    <div className='chapter_03'>
+    <div className='chapter_03'  id='chapter_03'>
       <div className='h64'></div>
       <div className='w'>
         <img {...SCROLL_BEHAVIOUR} className='w-100' src={chernobyl_mutants} alt='' />

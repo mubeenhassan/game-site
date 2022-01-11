@@ -14,7 +14,7 @@ export default function Chapter01() {
     AosInitializer()
   }, [])
   return (
-    <div className='chapter_02'>
+    <div className='chapter_02'  id='chapter_02'>
       <div className='h64' />
       <div className='w tc'>
         <h2 {...SCROLL_BEHAVIOUR}>CHAPTER 2</h2>
