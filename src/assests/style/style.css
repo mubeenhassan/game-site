@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 body {
   font-family: 'Press Start 2P', cursive;
   line-height: 1.5;
@@ -79,7 +79,7 @@ body {
   text-align: center;
 }
 .tj {
-  text-align: justify;
+  text-align: initial;
 }
 .tl {
   text-align: left;
@@ -124,7 +124,7 @@ body {
 
 .floating-img {
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -242,6 +242,7 @@ body {
 .chapter_02 {
   background: #4d2950;
   margin-top: -24px;
+  color: #fff;
 }
 
 .purple {
@@ -270,6 +271,29 @@ body {
 
 .drop img {
   max-height: 200px;
+}
+
+.chapter_03{
+background-color: #FEEC55;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.chapter_04{
+  font-family: 'Lato', sans-serif;
+  color: #4d2950;
+  background: #fff;
+  margin-top: -8px;
+}
+
+.chapter_04 h1{
+  font-size:3.5rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -337,4 +361,9 @@ body {
   .drop img {
     max-height: 150px;
   }
+
+.chapter_04 h1{
+  font-size:2.5rem !important;
+}
+
 }
