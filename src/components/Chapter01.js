@@ -3,10 +3,9 @@ import AOS from 'aos'
 import topBgImg from '../assests/images/top_bg.png'
 import gopinLogo from '../assests/images/Gopnik_logo.png'
 import gopniksText from '../assests/images/gopniks.png'
-import gopniksGif from '../assests/images/Gopniks.gif'
+import gopniksGif from '../assests/images/goldenshoes_.gif'
 import contestImg from '../assests/images/contest.png'
-import goldenShoes from '../assests/images/goldenshoes_.gif'
-import borisBea from '../assests/images/boris_bear.png'
+import borisBea from '../assests/images/Boris_bear.png'
 import borisBG from '../assests/images/Boris_logo.png'
 import borisCard from '../assests/images/Gopnik_id.png'
 import pistol from '../assests/images/boris_roulette.png'
@@ -16,13 +15,14 @@ import band from '../assests/images/boris_slotmachine.png'
 import dollar from '../assests/images/community_dollar.png'
 import borisSign from '../assests/images/boris_sign.png'
 import burningForest from '../assests/images/burning_forest.png'
-import {SCROLL_BEHAVIOUR, AosInitializer} from './utils/mis'
+import Golden_gopnn from '../assests/images/Golden_gopnik.png'
+import { SCROLL_BEHAVIOUR, AosInitializer } from './utils/mis'
 
 export default function Chapter01() {
   useEffect(() => {
     AosInitializer()
   }, [])
-  
+
   return (
     <div className='sec1 bbk' id='chapter_01'>
       <div className='sec1_1'>
@@ -50,15 +50,39 @@ export default function Chapter01() {
           <h1 className='gold' {...SCROLL_BEHAVIOUR}>
             What is a Gopnik?
           </h1>
+          <p>
+            A Gopnik is a{' '}
+            <a href='https://www.urbandictionary.com/define.php?term=Russian'>
+              Russian
+            </a>{' '}
+            <a href='https://www.urbandictionary.com/define.php?term=troublemaker'>
+              Troublemaker
+            </a>
+          </p>
+
+          <h1 className='gold' {...SCROLL_BEHAVIOUR}>
+            Why should I buy Gopnik?
+          </h1>
           <p className='tj' {...SCROLL_BEHAVIOUR}>
-            A Gopnik is a Russian troublemaker. We have 5555 real hard hustlers
-            ready to fuck shit up. Do you like to gamble? Take risks? Drink a
-            glass of vodka for breakfast? Live from hour to hour? Then join,
-            this is the right place. Davaj, mint your Gopnik to conquer the
-            streets. Get ready for squatting and blood clotting.{' '}
+            Because of its utility, duh! Holders of a Gopnik will be invited to
+            join our extensive roadmap of community focused live events. You
+            will compete in mini games with other verified holders and get
+            rewards from the community chest.
+            <br />
+            First event will be Boris Casino, a live streamed event on Saturdays
+            with live entertainment where you get to meet our beloved Boris the
+            bear. The casino is just not giveaways, compete in high stake
+            gambling against Boris if you can afford to lose your gopniks. We
+            have prepared 3 chapters in our roadmap so you can get the full
+            idea. And yes, Mutans. We have mutans.
+            <br />
+            <br />
+            <br />
+            Keep scrolling and welcome to Chernoby Gopniks.
           </p>
           <div className='h64' />
-          <h1 {...SCROLL_BEHAVIOUR} className='gold'>
+          <a className='mint-btn' href='/' {...SCROLL_BEHAVIOUR}></a>
+          <h1 {...SCROLL_BEHAVIOUR} className='gold mt-5'>
             WHAT UTILITY DOES MY GOPNIK HAVE?
           </h1>
           <div className='chapters tj w-50 ma'>
@@ -132,24 +156,18 @@ export default function Chapter01() {
               </li>
             </ul>
           </div>
-          <div className='floating-img-con' {...SCROLL_BEHAVIOUR}>
-            <div className='floating-img'>
-              <img className='w-100 floating' src={gopniksGif} alt='' />
-            </div>
-          </div>
           <h1 className='gold'>100% Fair and Randomized</h1>
-          <p {...SCROLL_BEHAVIOUR} className='tj'>
+          <p {...SCROLL_BEHAVIOUR} className='tj mt-2'>
             Minting using latest Solana Candy Machine v2.0. No more bot or team
             sniping, fair for everyone
           </p>
-          <h1 {...SCROLL_BEHAVIOUR}>
+          <h1 className='mt-5' {...SCROLL_BEHAVIOUR}>
             <span className='gold'>mint live end:</span> 24th jan
           </h1>
-          <a className='mint-btn' href='/' {...SCROLL_BEHAVIOUR}></a>
-          <h1 {...SCROLL_BEHAVIOUR} className='gold'>
+          <h1 {...SCROLL_BEHAVIOUR} className='gold mt-2'>
             HIDDEN INSIDE THE MINT MACHINE:
           </h1>
-          <p {...SCROLL_BEHAVIOUR} className='tj'>
+          <p {...SCROLL_BEHAVIOUR} className='tj mt-2'>
             Get lucky while minting and get one of the 52 Legendary Gopniks
             among 5555. Keep an eye open for these:
           </p>
@@ -160,7 +178,7 @@ export default function Chapter01() {
           </h1>
           <img
             {...SCROLL_BEHAVIOUR}
-            src={goldenShoes}
+            src={Golden_gopnn}
             alt=''
             className='gopin-size'
           />
