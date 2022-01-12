@@ -81,7 +81,7 @@ export default function Chapter01() {
             Keep scrolling and welcome to Chernoby Gopniks.
           </p>
           <div className='h64' />
-          <a className='mint-btn' href='/' {...SCROLL_BEHAVIOUR}></a>
+          <button className='mint-btn' {...SCROLL_BEHAVIOUR}></button>
           <h1 {...SCROLL_BEHAVIOUR} className='gold mt-5'>
             WHAT UTILITY DOES MY GOPNIK HAVE?
           </h1>

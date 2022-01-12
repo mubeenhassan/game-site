@@ -152,23 +152,25 @@ body {
 }
 
 .mint-btn {
-  background-image: url('../images/mint_button_1.png');
+  background-image: url('../images/btn.jpeg');
   height: 160px;
   width: 300px;
   background-size: 300px auto;
   background-repeat: no-repeat;
   margin: 24px auto;
   display: block;
+  cursor: pointer;
 }
+
+button.mint-btn:active {
+  background-image: url('../images/btn_pressed.jpeg');
+}
+
 
 .gopin-size {
   max-width: 400px;
   margin: 32px auto;
   width: 100%;
-}
-
-.mint-btn:hover {
-  background-image: url('../images/mint_btn.jpeg');
 }
 
 .traits table {
