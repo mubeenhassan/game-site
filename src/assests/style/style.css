@@ -152,7 +152,9 @@ body {
 }
 
 .mint-btn {
-  background-image: url('../images/btn.jpeg');
+  background-image: url('../images/btn.png');
+  border:none;
+  background-color: transparent;
   height: 160px;
   width: 300px;
   background-size: 300px auto;
@@ -163,7 +165,7 @@ body {
 }
 
 button.mint-btn:active {
-  background-image: url('../images/btn_pressed.jpeg');
+  background-image: url('../images/btn_pressed.png');
 }
 
 
