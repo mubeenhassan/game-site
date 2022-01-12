@@ -14,6 +14,7 @@ export default function Navbar() {
       <a href='#chapter_02'>chapter 02</a>
       <a href='#chapter_03'>chapter 03</a>
       <a href='#chapter_04'>chapter 04</a>
+      <a href='#team'>team</a>
       <a href='#'>discord</a>
       <a href='#'>twitter</a>
       <a href='#'>medium</a>
