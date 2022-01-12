@@ -15,7 +15,7 @@ import band from '../assests/images/boris_slotmachine.png'
 import dollar from '../assests/images/community_dollar.png'
 import borisSign from '../assests/images/boris_sign.png'
 import burningForest from '../assests/images/burning_forest.png'
-import Golden_gopnn from '../assests/images/Golden_gopnik.png'
+import Golden_gopnn from '../assests/images/gopin.jpeg'
 import { SCROLL_BEHAVIOUR, AosInitializer } from './utils/mis'
 
 export default function Chapter01() {
@@ -156,6 +156,12 @@ export default function Chapter01() {
               </li>
             </ul>
           </div>
+          <img
+            {...SCROLL_BEHAVIOUR}
+            src={gopniksGif}
+            alt=''
+            className='gopin-size'
+          />
           <h1 className='gold'>100% Fair and Randomized</h1>
           <p {...SCROLL_BEHAVIOUR} className='tj mt-2'>
             Minting using latest Solana Candy Machine v2.0. No more bot or team
@@ -207,13 +213,7 @@ export default function Chapter01() {
           <h1 {...SCROLL_BEHAVIOUR} className='gold'>
             50 Golden Shoe Gopnik
           </h1>
-          <img
-            {...SCROLL_BEHAVIOUR}
-            src={gopniksGif}
-            alt=''
-            className='gopin-size'
-          />
-          <p {...SCROLL_BEHAVIOUR} className='tj'>
+          <p {...SCROLL_BEHAVIOUR} className='tj mt-3'>
             50 of the rarest Gopniks, outfitted with Slav’s best shoes.
           </p>
           <div className='h64' />
